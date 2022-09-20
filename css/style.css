@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0
+    font-family: 'Roboto';
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 /* barra suoperiore  */
 header {
     height: 100px;
-    width: 100%;
+
     background-color: white;
     font-weight: bold;
     margin-bottom: 60px;
@@ -26,9 +27,9 @@ header {
 
 #title_header {
     display: inline-block;
-  
     font-size: 4rem;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    vertical-align: bottom;
 }
 
 /* logo barra suoperiore */
@@ -56,6 +57,7 @@ header {
     display: flex;
     padding-left: 40px;
     padding-top: 15px;
+    margin-bottom: 20px;
 
 }
 
@@ -85,7 +87,7 @@ header {
     width: 500px;
     margin-top: 30px;
     margin-left: 45px;
-    background-color: red;
+    background-color: white;
 
 
 }
@@ -96,26 +98,69 @@ header {
     font-weight: bold;
     margin-top: 0px;
     font-size: 1.3rem;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 
 
 }
 
 #freccia {
-    width: 1px;
-    height: 2px;
-    padding-inline-end: 20px;
+    font-size: 12px;
+    
 }
 
 .item {
-    display: flex;
+
     color: black;
     font-size: 1rem;
     margin-top: 7px;
     line-height: 1rem;
 
+    margin-bottom: 13px;
+
 }
 
 #verificato {
     padding-inline-end: 10px;
+    display: inline-block;
+}
+
+#nonverificato{
+    padding-inline-end: 10px;
+    display: inline-block;
+}
+
+#text {
+    display: inline-block;
+
+}
+
+.Buttom {
+    display: inline-block;
+    background-color: #4ab4ec;
+    width: 90px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 0.9rem;
+    font-size: 0.9rem;
+}
+
+#yellow{
+    background-color: rgb(180, 216, 52);
+}
+
+#orange{
+    background-color: orange;
+}
+
+#purple{
+    background-color: purple;
+}
+
+
+#blue{
+    background-color: blue;
 }
