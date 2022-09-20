@@ -16,14 +16,19 @@ body {
 
 /* barra suoperiore  */
 header {
-    height: 90px;
+    height: 100px;
     width: 100%;
     background-color: white;
-    display: flex;
-    line-height: 5rem;
-    font-size: 26px;
     font-weight: bold;
     margin-bottom: 60px;
+
+}
+
+#title_header {
+    display: inline-block;
+  
+    font-size: 4rem;
+    padding-bottom: 30px;
 }
 
 /* logo barra suoperiore */
@@ -76,3 +81,41 @@ header {
     color: lightgray;
 }
 
+.list {
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 45px;
+    background-color: red;
+
+
+}
+
+.title_list {
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 1.3rem;
+    margin-top: 15px;
+
+
+}
+
+#freccia {
+    width: 1px;
+    height: 2px;
+    padding-inline-end: 20px;
+}
+
+.item {
+    display: flex;
+    color: black;
+    font-size: 1rem;
+    margin-top: 7px;
+    line-height: 1rem;
+
+}
+
+#verificato {
+    padding-inline-end: 10px;
+}
