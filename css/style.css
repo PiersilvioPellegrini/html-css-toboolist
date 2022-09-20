@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+
+    background-color: rgb(228, 224, 224);
+}
+
+.container {
+    width: 100vw;
+
+}
+
+/* barra suoperiore  */
+header {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    line-height: 5rem;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+/* logo barra suoperiore */
+.img_header {
+    height: 85px;
+    width: 85px;
+    padding: 5px;
+}
+
+/* blocco centrale */
+.block {
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
+
+/* nav blocco centrale */
+.nav {
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    /* <!-- linea inferiore --> */
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 15px;
+
+}
+
+/* bottom add */
+.add {
+    background-color: #4ab4ec;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 0.9rem;
+    font-size: 0.9rem;
+    margin-inline: 5px;
+}
+
+/* id bottom add Section */
+#add1 {
+    background-color: white;
+    border: 1px solid lightgray;
+    color: lightgray;
+}
+
