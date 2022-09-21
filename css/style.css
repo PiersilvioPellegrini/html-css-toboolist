@@ -2,12 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0 ;
-    font-family: "Lucida Console";
+    
 }
 
 body {
-    font-family: "Lucida Console";
+    
     background-color: rgb(228, 224, 224);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -51,7 +52,7 @@ header {
 .nav {
     background-color: white;
     width: 100%;
-    height: 65px;
+    
     /* <!-- linea inferiore --> */
     border-bottom: 1px solid lightgray;
     display: flex;
@@ -65,7 +66,7 @@ header {
 .add {
     background-color: #4ab4ec;
     height: 35px;
-    width: 100px;
+    width: 110px;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -74,6 +75,7 @@ header {
     line-height: 0.9rem;
     font-size: 0.9rem;
     margin-inline: 5px;
+    margin-bottom: 10px;
 }
 
 /* id bottom add Section */
